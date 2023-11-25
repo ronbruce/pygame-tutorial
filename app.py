@@ -4,8 +4,12 @@ pygame.init()
 from random import randint
 import random
 
-#TODO Make Player move one space into lane of strawberries and apples.
-
+# #TODO Challenge 1
+# The fruit is looking pretty good but everything has a very down and to the right thing going on. 
+# It would be nice if there was some up-and-to-the-right stuff.
+# Modify the Apple class so that each time an Apple resets it chooses a direction up or down. 
+# If it chooses up it moves up from the bottom of the screen off the top edge.
+# Modify the Strawberry so that it chooses to move from right to left or left to right each time it resets.
 
 # Get the clock
 clock = pygame.time.Clock()
